@@ -1,4 +1,4 @@
-sudo bash -c 'echo "deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ jammy main restricted universe multiverse" > /etc/apt/sources.list'
+# sudo bash -c 'echo "deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ jammy main restricted universe multiverse" > /etc/apt/sources.list'
 sudo apt-get update
 
 sudo apt-get install build-essential    # build-essential packages, include binary utilities, gcc, make, and so on
