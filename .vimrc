@@ -47,8 +47,8 @@ set hidden             " Hide buffers when they are abandoned
 " This setting makes search case-insensitive when all characters in the string
 " being searched are lowercase. However, the search becomes case-sensitive if
 " it contains any capital letters. This makes searching more convenient.
-set ignorecase         " Do case insensitive matching
-set smartcase          " Do smart case matching
+set ignorecase         " Do case insensitive matching 大小写不敏感查找
+set smartcase          " Do smart case matching 如果有一个大写字母，则切换到大小写敏感查找
 
 " Enable searching as you type, rather than waiting till you press enter.
 set incsearch          " Incremental search
