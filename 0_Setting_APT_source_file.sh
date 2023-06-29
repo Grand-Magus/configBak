@@ -12,7 +12,7 @@ sudo apt-get -y install llvm llvm-dev      # llvm project, which contains librar
 # sudo apt-get -y install llvm-11 llvm-11-dev # only for ubuntu20.04
 
 sudo apt-get -y install vim
- .vimrc ~/.vimrc
+cp .vimrc ~/.vimrc
 
 # Install zsh
 sudo apt-get -y install zsh
