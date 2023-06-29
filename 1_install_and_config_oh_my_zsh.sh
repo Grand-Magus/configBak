@@ -4,8 +4,8 @@
 # sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # 【推荐】脚本配置安装
-sudo apt-get install curl
-sudo apt-get install unzip
+sudo apt-get -y install curl
+sudo apt-get -y install unzip
 # zsh -c "$(curl -fsSL 'https://api.host.mintimate.cn/fileHost/public/download/1P0R')"
 zsh -c "$(AutoInstallZsh.sh)"
 
